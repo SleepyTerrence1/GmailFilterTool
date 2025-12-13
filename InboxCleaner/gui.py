@@ -15,4 +15,5 @@ def run_app():
 
 
     root.mainloop()
-run_app()
+if __name__ == '__main__':
+    run_app()
