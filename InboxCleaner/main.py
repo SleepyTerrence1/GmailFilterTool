@@ -4,7 +4,7 @@ import json
 SCOPES = ['https://www.googleapis.com/auth/gmail.modify']
 
 def gmail_login():
-    flow = InstalledAppFlow.from_client_secrets_files(
+    flow = InstalledAppFlow.from_client_secrets_file(
         'credentials.json', SCOPES)
     creds = flow.run_local_server(port=0)
     service = build('gmail', 'v1', credentials=creds)
