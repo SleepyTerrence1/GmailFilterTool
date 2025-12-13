@@ -1,0 +1,5 @@
+# Shows the dependencies required for this project.
+google-api-python-client
+google-auth-httplib2
+google-auth-oauthlib
+tkinter

@@ -9,8 +9,13 @@ emails are too annoying to clean and she doesn't know how to!
 
 
 # 🌟Features
- - PLACEHOLDER
+ - Gmail OAuth login
+ - Filters by keywords, age, etc
+ - Preview emails before deletion ot archive
 
 # 📷 Preview
 
 # ✏️ How to use
+Cloning Repo
+1. Install dependencies if required(Check requirements.txt)
+2. Run program
