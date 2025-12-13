@@ -14,5 +14,5 @@ def run_app():
     tk.Button(root, text="Apply Filters", command=lambda: print("Applying filters...") )
 
 
-    root.mainLoop()
+    root.mainloop()
 run_app()
