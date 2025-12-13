@@ -3,7 +3,7 @@ from main import gmail_login, load_filters
 
 def run_app():
     root = tk.Tk()
-    root.title("Inbox Cleaner(Gmail)")
+    root.title("Inbox Cleaner GUI")
     root.geometry("500x400")
 
     tk.Label(root, text="Inbox Cleaner").pack()
