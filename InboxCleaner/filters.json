@@ -1,0 +1,14 @@
+filters = {
+    "Keywords": [
+        "promotion",
+        "newsletter",
+        "promo",
+        "promotions",
+        "sale"
+    ],
+    "senders": [
+        "no-reply@example.com", 
+        "ads@example.com"
+    ],
+    "older_than_days": 30
+}
