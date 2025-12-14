@@ -11,7 +11,7 @@ def gmail_login():
     return service
 
 def load_filters():
-    with open('filters.json', 'r') as f:
+    with open('InboxCleaner/filters.json', 'r') as f:
         return json.load(f)
 
 def main():
